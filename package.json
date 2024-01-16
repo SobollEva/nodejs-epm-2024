@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-epam-2024",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SobollEva/nodejs-epm-2024.git"
+  },
+  "author": "Sobolevskaya Evgeniya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SobollEva/nodejs-epm-2024/issues"
+  },
+  "homepage": "https://github.com/SobollEva/nodejs-epm-2024#readme",
+  "devDependencies": {
+    "nodemon": "^3.0.2",
+    "rimraf": "^5.0.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
