@@ -2,7 +2,6 @@
     "include": ["src"],
     "exclude": ["node_modules", "**/*.spec.ts"],
     "compilerOptions": {
-        "outDir": "dist",
         "moduleResolution": "node",
         "module": "ES2015",
         "target": "ES2015",
