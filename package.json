@@ -10,7 +10,8 @@
     "lint:fix": "eslint --fix . --ext .ts",
     "task1:1": "npm run clean:dist && tsc src/hw-1/task1.ts --outDir dist && nodemon dist/task1.js",
     "task1:2": "npm run clean:dist && tsc --esModuleInterop src/hw-1/task2.ts --outDir dist && nodemon dist/task2.js",
-    "task2": "npm run clean:dist && npm run lint && tsc --esModuleInterop src/hw-2/index.ts --outDir dist && nodemon dist/index.js"
+    "task2": "npm run clean:dist && npm run lint && tsc --esModuleInterop src/hw-2/index.ts --outDir dist && nodemon dist/index.js",
+    "task3": "npm run clean:dist && npm run lint && tsc --esModuleInterop src/hw-3/index.ts --outDir dist && nodemon dist/index.js"
   },
   "repository": {
     "type": "git",
@@ -40,8 +41,11 @@
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "csvtojson": "^2.0.10",
+    "dotenv": "^16.4.1",
     "express": "^4.18.2",
     "express-joi-validation": "^5.0.1",
+    "pg": "^8.11.3",
+    "sequelize": "^6.36.0",
     "uuid": "^9.0.1"
   }
 }
